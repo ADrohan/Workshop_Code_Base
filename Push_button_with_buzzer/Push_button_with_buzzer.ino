@@ -5,11 +5,11 @@ LilyPad Buzzer Example
 This example code shows how use a button to trigger sounds with the LilyPad Buzzer on a LilyPad USB Plus Board
 
 Buzzer connections:
-   * + pin to A8   
+   * + pin to 10  
    * - to -
 
 Button connections:
-   * + pin to A4
+   * + pin to 2
    * - to -
 
 Futher information on the tone function including details on audible pitch values
@@ -20,13 +20,10 @@ tone (pin, frequency, duration)
 
 ******************************************************************************/
 // Pin the buzzer is attached to
-int buzzerPin = 8; // buzzer atttached to A8
+int buzzerPin = 10; // buzzer atttached to A8
 
-int buttonPin = 12;  // button attached to A4
+int buttonPin = 2;  // button attached to A4
 
-//int buzzerPin = 8; // buzzer atttached to A8
-
-//int buttonPin = 4;  // button attached to A4
 
 // Variable to store the button's state 
 int buttonState = 0;
